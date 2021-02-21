@@ -6,6 +6,7 @@ categories: jekyll css
 ---
 
 {% newthought 'Machine Learning' %} is pretty wild, and here is why your brain is literally a machine.
+<!--more-->
 
 **Biomimicry: From Brains to Machines**
 
@@ -97,6 +98,6 @@ Now to machine learning.
 
 [[4\]](#_ftnref4) There are also multiple competing theories of how our perception works and especially the kinds of schema we create: check out an article that summarizes that [here](https://www.simplypsychology.org/perception-theories.html).
 
-[[5\]](#_ftnref5) Skinner was originally from the era of behavioral psychology in which the mind (and by association the brain) was assessed by a person’s behavior, or else response to stimuli. This was also the era of Pavlov’s dog conditioning experiments – a perfect example of behavioral psychology in that Pavlov provided stimuli in the form of food (further associated with the sound of a bell) and tracked how the dogs responded (by drooling). Read more here.
+[[5\]](#_ftnref5) Skinner was originally from the era of behavioral psychology in which the mind (and by association the brain) was assessed by a person’s behavior, or else response to stimuli. This was also the era of Pavlov’s dog conditioning experiments – a perfect example of behavioral psychology in that Pavlov provided stimuli in the form of food (further associated with the sound of a bell) and tracked how the dogs responded (by drooling).
 
 [[6\]](#_ftnref6) Also, as anyone with even a hint of a phobia can attest to, decision making is not always accounted for by a logically weighted info. In the case of phobias, it can often be due to an extreme emotional experience. Thus, this example is far from complete.
