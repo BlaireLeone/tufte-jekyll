@@ -1,4 +1,11 @@
-The Genesis of Machine Learning: Why Neural Networks look like Our Brains
+---
+layout: post
+title:  "The Genesis of Machine Learning: Why Neural Networks look like Our Brains"
+date:   2020-02-21 08:46:04
+categories: jekyll css
+---
+
+{% newthought 'Machine Learning' %} is pretty wild, and here is why your brain is literally a machine.
 
 **Biomimicry: From Brains to Machines**
 
