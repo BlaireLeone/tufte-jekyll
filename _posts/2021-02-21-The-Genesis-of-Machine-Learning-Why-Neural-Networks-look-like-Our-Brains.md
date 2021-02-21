@@ -25,17 +25,17 @@ Our brains are comprised of billions of neurons. These are interconnected in a v
 
 In describing the brain, I’ll begin at one of the smallest units – a neuron. A neuron is essentially a relay station, set within an infinite chain of relay stations, receiving and sending forth information in the form of electrochemical signals. Each neuron has a cell body, with upwards of dozens of little tendrils shooting out called *dendrites*. One of these tendrils is much longer than the r rest and is in fact something else altogether - the *axon*. And at the end of the axon are dozens of *synapses*, which could be thought of as a pitching machine at a batting cage.  When a signal is fired, electricity received from neighboring neurons gathers in the cell body. Once enough signals have accumulated up to a certain threshold, the cell body fires an electrochemical pulse down the axon, which will in turn be rapid fire released through the synapses to neighboring cell’s dendrites which must grab them as if catching a baseball. Once those dendrites receive enough signals to pass the electrochemical threshold, they will fire an accompanying pulse down that axon. This happens instantaneously and in perpetuity through millions of other neurons until the signal reaches it goal. 
 
- ![image-20210220113116249](C:\Users\bleoh\AppData\Roaming\Typora\typora-user-images\image-20210220113116249.png)
+ ![Anatomy of a neuron](assets/img/Structure-Of-Neurons-In-Brain.jpg)
 
 ​                               
 
 When our brain is processing (thinking, remembering, reading, sensing etc.), these signals follow specialized neural pathways that are equipped to send a particular kind of information. For instance, when viewing an object, the image that appears in our eyes is deconstructed into basic info (color, shape, shading, perspective etc.) and sent to the *back* of our brains to the occipital lobe via [the Lateral Geniculate Nucleus (LGN)](https://www.ncbi.nlm.nih.gov/books/NBK482504/).[[3\]](#_ftn3) One could say that the neurons in this channel were trained to recognize and relay only visual info, as they connect to parts of the brain designed to process visual stimuli – the eyes and the occipital lobe. 
 
-![](C:\Users\bleoh\Downloads\1200px-Human_visual_pathway.svg.png)
+![](assets/img/1200px-Human_visual_pathway.png)
 
 The occipital lobe then processes the images and sends them to other parts of our brain for further analysis. If it’s a growling dog, that information may be disseminated [through the amygdala](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3025529/), via various other lobes and channels, which will kick in a fight/flight reaction, which will engage our autonomic nervous system (ANS), which may cause us to run in a panic. This takes place in milliseconds. 
 
-![ML flow chart 4](C:\Users\bleoh\Pictures\ML flow chart 4.png)
+![ML flow chart 4](assets/img/ML flow chart 4.png)
 
 As a side note, stimuli, here, does not just refer to visual information. It could be somatosensory, as when touching a hot stove. It could be auditory, as when identifying a piece of music, or olfactory as when inhaling freshly made cinnamon buns. All of these coalesce into the representations in our minds that influence the decisions we make.[[4\]](#_ftn4)
 
@@ -57,17 +57,17 @@ Thus, we come to the next step in the brain/computer analysis. A brain is consta
 
 So why would a growling dog prompt a fight/flight reaction, when previously we wanted to pet them? Perhaps we saw a gruesome attach scene in a movie, or we were bit by a dog in the past, or we were taught to give dogs their space. Regardless, at one point, we didn’t understand the potential of a growling dog, and now we do. We learned – and our brains adjusted. At the outset of learning that a growling dog might be harmful, our brains created new neurons, connecting them with the old ones that represent ‘dog’. Our brains may even have reformed the concept of ‘dog’ entirely.
 
-​     Original feelings towards dogs:     ![ML flow chart 1](C:\Users\bleoh\Pictures\ML flow chart 1.png)
+​     Original feelings towards dogs:     ![ML flow chart 1](assets/img/ML flow chart 1.png)
 
 
 
-​      After getting bit by dog: ![ML flow chart 2](C:\Users\bleoh\Pictures\ML flow chart 2.png)
+​      After getting bit by dog: ![ML flow chart 2](assets/img/ML flow chart 2.png)
 
 
 
 Originally, this flow of decision making just included ‘pet’, but now it has ‘harmful’ and ‘run. Our next interaction with a dog may find them to be not harmful, but also totally unresponsive to petting, and thus we add ‘ignore’ to our responses.
 
-![ML flow chart 3](C:\Users\bleoh\Pictures\ML flow chart 3.png)
+![ML flow chart 3](assets/img/ML flow chart 3.png)
 
 As stated, this is an oversimplified example. Our brains are so complex and well-optimized that contextual variability is added to the equation in an instant. At the same time the chain of decisions is made, outside information is simultaneously considered. The dog may be attached to a leash, it may be growling at the other dog we happen to have with us, it may not be growling at all, but have its lips pulled back in a permanent snarl. We may also see a fence within running distance or perhaps its owner assures us it’s friendly, something we may be likely to believe because the owner is a trusted friend. Our brains process and respond to all of this information in an instant. And we add it to our decision tree. 
 
