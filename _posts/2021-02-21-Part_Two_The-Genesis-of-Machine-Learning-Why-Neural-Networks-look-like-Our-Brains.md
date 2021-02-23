@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Part Two - The Genesis of Machine Learning: Why Neural Networks look like Our Brains"
-date:   2020-02-21 10:46:04
+date:   2021-02-17 10:46:04
 categories: jekyll css
 ---
-{% newthought "Connectionism! Brains learn iteratively, perhaps not quite so logically, and perhaps after trying the same thing multiple times" %}.
+{% newthought "Connectionism and the iterative style of our brains' learning and decision-making." %}.
 {% maincolumn 'assets/img/InfoBottleneck_2880x1620.jpg'  ''%}
 
 <!--more-->

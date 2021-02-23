@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Part One - The Genesis of Machine Learning: Why Neural Networks look like Our Brains"
-date:   2020-02-07 08:46:04
+date:   2021-02-07 08:46:04
 categories: jekyll css
 ---
 {% newthought 'Machine learning is pretty wild. And as its functional forbearer, so is the human brain!' %} 
