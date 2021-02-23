@@ -59,6 +59,6 @@ Thus, we come to the next step in the brain/computer analysis. A brain is consta
 
 
 
-In part two of this series, I'll talk about the iterative nature of human learning, before diving into the machine learning version of this process in part three.
+In [part two](Part_Two_The-Genesis-of-Machine-Learning-Why-Neural-Networks-look-like-Our-Brains) of this series, I'll talk about the iterative nature of human learning, before diving into the machine learning version of this process in part three.
 
 
