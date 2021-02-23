@@ -1,8 +1,3 @@
----
-layout: full-width
-title: About
----
-
 Hi there. Thanks for visiting my blog! 
 
 About Blaire
