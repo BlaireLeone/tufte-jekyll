@@ -5,7 +5,7 @@ date:   2020-02-21 10:46:04
 categories: jekyll css
 ---
 {% newthought "Connectionism! Brains learn iteratively, perhaps not quite so logically, and perhaps after trying the same thing multiple times" %}.
-{% maincolumn 'assets/img/ML Brains 1.png'  ''%}
+{% maincolumn 'assets/img/InfoBottleneck_2880x1620.jpg'  ''%}
 
 <!--more-->
 
