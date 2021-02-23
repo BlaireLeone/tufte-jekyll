@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The Genesis of Machine Learning: Why Neural Networks look like Our Brains"
-date:   2020-02-21 08:46:04
+title:  "Part One - The Genesis of Machine Learning: Why Neural Networks look like Our Brains"
+date:   2020-02-07 08:46:04
 categories: jekyll css
 ---
 {% newthought 'Machine learning is pretty wild. And as its functional forbearer, so is the human brain!' %} 
@@ -59,6 +59,6 @@ Thus, we come to the next step in the brain/computer analysis. A brain is consta
 
 
 
-In part two of this series, I'll talk about the iterative nature of human learning, before diving into the machine learning version of this process in part three.
+In [part two](Part_Two_The-Genesis-of-Machine-Learning-Why-Neural-Networks-look-like-Our-Brains) of this series, I'll talk about the iterative nature of human learning, before diving into the machine learning version of this process in part three.
 
 
