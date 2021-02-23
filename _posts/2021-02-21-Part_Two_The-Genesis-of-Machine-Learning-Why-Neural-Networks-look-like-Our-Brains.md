@@ -4,7 +4,7 @@ title:  "Part Two - The Genesis of Machine Learning: Why Neural Networks look li
 date:   2021-02-17 10:46:04
 categories: jekyll css
 ---
-{% newthought "Connectionism and the iterative style of our brains' learning and decision-making." %}
+{% newthought "Connectionism: how our brains learn and make decisions iteratively." %}
 {% maincolumn 'assets/img/InfoBottleneck_2880x1620.jpg'  ''%}
 
 <!--more-->
