@@ -5,7 +5,7 @@ date:   2021-02-07 08:46:04
 categories: jekyll css
 ---
 {% newthought 'Machine learning is pretty wild. And as its functional forbearer, so is the human brain!' %} 
-{% maincolumn 'assets/img/ML Brains 1.png'  ''%}
+{% maincolumn 'assets/img/Brains_ML/ML Brains 1.png'  ''%}
 
 <!--more-->
 

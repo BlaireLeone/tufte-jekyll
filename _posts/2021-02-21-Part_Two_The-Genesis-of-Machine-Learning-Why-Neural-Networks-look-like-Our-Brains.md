@@ -5,7 +5,7 @@ date:   2021-02-17 10:46:04
 categories: jekyll css
 ---
 {% newthought "Connectionism: how our brains learn and make decisions iteratively." %}
-{% maincolumn 'assets/img/InfoBottleneck_2880x1620.jpg'  ''%}
+{% maincolumn 'assets/img/Brains_ML/InfoBottleneck_2880x1620.jpg'  ''%}
 
 <!--more-->
 
@@ -44,7 +44,7 @@ Our decision making is often influenced by our emotions as well. As anyone with 
 
 **Heuristic Learning**
 
-In terms of the learning process, what is important in this example, is that we calculated our options. We knew that some decisions require thorough assessment, and thus weighed all the variables and at least attempted a logically sound choice. We can call this method of decision making *heuristics*, (AKA 'cognitive shortcuts' or 'rules of thumb') a practical, and sometimes more efficient, approach to [problem solving](http://www.sfu.ca/~jeffpell/papers/RomanyciaPelletierHeuristics85.pdf), whereby we may employ a commonly successful technique or model in assisting our own hunt for answers.{% sidenote '1.5' 'Also check out the oft nefarious [cognitive biases](https://projects.iq.harvard.edu/expose/book/interactions-heuristics-and-biases-making-decisions) imbedded heuristics especially the availability heuristic!'%}
+In terms of the learning process, what is important in this example, is that we calculated our options. We knew that some decisions require thorough assessment, and thus weighed all the variables and at least attempted a logically sound choice. We can call this method of decision making *heuristics*, (AKA 'cognitive shortcuts' or 'rules of thumb') a practical, and sometimes more efficient, approach to [problem solving](http://www.sfu.ca/~jeffpell/papers/RomanyciaPelletierHeuristics85.pdf), whereby we may employ a commonly successful technique or model in assisting our own hunt for answers.{% sidenote '1.5' 'Also check out the oft nefarious [cognitive biases](https://projects.iq.harvard.edu/expose/book/interactions-heuristics-and-biases-making-decisions) embedded heuristics especially the availability heuristic!'%}
 
 In this example, we attempted to root out for ourselves who the optimal boyfriend was using the timeless pros and cons list.
 
