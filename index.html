@@ -1,17 +1,147 @@
----
-layout: full-width
-title: Hogwash
-# Note that this index page uses a full-width layout!
----
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <h1 class="content-listing-header sans">Articles</h1>
+  <title>Hogwash</title>
+  <meta name="description" content="A spiffy internet webpage">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/">
+
+  <link rel="alternate" type="application/rss+xml" title="Hogwash" href="/feed.xml" />
+</head>
+
+  <body class="full-width">
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_hw.png" alt="CH"></a>
+	
+		
+  	
+		
+		    
+		      <a class="active" href="/" class="active">Hogwash</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/page/">Coming Soon</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article>
+        <h1 class="content-listing-header sans">Articles</h1>
   <ul class="content-listing ">
-    {% for post in site.posts %}      
+          
         <li class="listing">
           <hr class="slender">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
-          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-          <div>{{ post.excerpt }}</div> 
+          <a href="/articles/21/Bikes_Part_2"><h3 class="contrast">Part Two - Autonomous Vehicles and Bicycles</h3></a>
+          <br><span class="smaller">March 8, 2021</span>  <br/>
+          <div><p><span class="newthought">What makes an autonomous vehicle autonomous? And how safe are they really?</span></p>
+<figure><img src="/assets/img/Bicycles_AVs/bicycle-car-sensor-technology.jpg" /><figcaption class="maincolumn-figure"></figcaption></figure>
+
+</div> 
         </li>
-    {% endfor %}
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/articles/21/Bikes"><h3 class="contrast">Part One - Autonomous Vehicles and Bicycles</h3></a>
+          <br><span class="smaller">February 27, 2021</span>  <br/>
+          <div><p><span class="newthought">Autonomous vehicle technology is projected to revolutionize the transportation industry - but do we know how they interact with bicyclists?</span></p>
+<figure><img src="/assets/img/Bicycles_AVs/MastHead.jpg" /><figcaption class="maincolumn-figure"></figcaption></figure>
+
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/articles/21/Part_Two_The-Genesis-of-Machine-Learning-Why-Neural-Networks-look-like-Our-Brains"><h3 class="contrast">Part Two - The Genesis of Machine Learning: Why Neural Networks look like Our Brains</h3></a>
+          <br><span class="smaller">February 17, 2021</span>  <br/>
+          <div><p><span class="newthought">Connectionism: how our brains learn and make decisions iteratively.</span></p>
+<figure><img src="/assets/img/Brains_ML/InfoBottleneck_2880x1620.jpg" /><figcaption class="maincolumn-figure"></figcaption></figure>
+
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/articles/21/The-Genesis-of-Machine-Learning-Why-Neural-Networks-look-like-Our-Brains"><h3 class="contrast">Part One - The Genesis of Machine Learning: Why Neural Networks look like Our Brains</h3></a>
+          <br><span class="smaller">February 7, 2021</span>  <br/>
+          <div><p><span class="newthought">Machine learning is pretty wild. And as its functional forbearer, so is the human brain!</span></p>
+<figure><img src="/assets/img/Brains_ML/ML Brains 1.png" /><figcaption class="maincolumn-figure"></figcaption></figure>
+
+</div> 
+        </li>
+    
   </ul>
+    </article>
+    <span class="print-footer">Hogwash - Blaire Hobbs</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;BLAIRE HOBBS&nbsp;&nbsp; <a href="mailto:b.leo.hobbs@gmail.com"><span class="icon-mail3"></span></a></span></br> <br>
+<!-- <span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for blog about some things </a> in <a href="//jekyllrb.com">Jekyll</a>.</span>  -->
+</div>  
+</footer>
+  </body>
+</html>

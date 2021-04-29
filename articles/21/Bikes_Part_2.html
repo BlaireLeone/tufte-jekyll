@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Part Two - Autonomous Vehicles and Bicycles</title>
+  <meta name="description" content="What makes an autonomous vehicle autonomous? And how safe are they really?">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/articles/21/Bikes_Part_2">
+
+  <link rel="alternate" type="application/rss+xml" title="Hogwash" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_hw.png" alt="CH"></a>
+	
+		
+  	
+		
+		    
+		      <a href="/">Hogwash</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/page/">Coming Soon</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>Part Two - Autonomous Vehicles and Bicycles</h1>
+<p class="subtitle">March 8, 2021</p>
+
+<p><span class="newthought">What makes an autonomous vehicle autonomous? And how safe are they really?</span></p>
+<figure><img src="/assets/img/Bicycles_AVs/bicycle-car-sensor-technology.jpg" /><figcaption class="maincolumn-figure"></figcaption></figure>
+
+<!--more-->
+
+<p><strong>Driverless-ness, in general, is a tall order</strong></p>
+
+<p>While certainly more than the sum of its parts, when disassembled, we can see the complex systems that AVs must employ to function. Among technologies like GPS and automatic braking and steering, Alan Amici, vice president of TE Connectivity, also <a href="https://www.fi.edu/science-of-selfdriving-cars">identifies the 3 most essential AV elements</a>: sensors, connectivity, and software/control algorithms.</p>
+
+<p><em>Sensors</em></p>
+
+<p>Sensors are pivotal to the car’s ability to navigate and more than that, they do the data groundwork, feeding information to the other systems to build from. Sensors must observe their surroundings, detect objects on all sides, identify lane boundaries or curves in the road, etc. We see these sensors in the form of 3 basic technologies working simultaneously: 360-degree LIDAR and radar for short and long range object detection<label for="3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="3" class="margin-toggle" /><span class="sidenote"><a href="https://www.thedrive.com/article/16916/lidar-vs-radar-pros-and-cons-of-different-autonomous-driving-technologies">This article</a> discusses how LIDAR and radar work, their differences, pros and cons, and which of the two sensors individual AV companies prefer </span>, cameras for cross-checking object recognition, and ultrasound for park assist.</p>
+
+<p>These provide the AVs with a visual field comparable to the human eye, allowing them to “see” as a human would and orient themselves in relation to the objects around them. While sensors, at the moment, may not out-compete a human eye, several benefits of this technology are that sensors are constantly vigilant, consistent in their estimations, and attending to all sides of the vehicle at once.</p>
+
+<figure><img src="/assets/img/Bicycles_AVs/Sensors.png" /><figcaption class="maincolumn-figure">Each individual sensor&#8217;s visual field.</figcaption></figure>
+
+<p><em>Algorithms</em></p>
+
+<p>All this sensory data, however, is useless to a system that can’t make confident, human-esque decisions; it needs an on-deck computer system to compile information and learn from the data accumulated until it has developed a situationally-aware, and in some ways, superhuman system <label for="3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="3" class="margin-toggle" /><span class="sidenote">I won’t go into the different kinds of AI models employed by AV’s, however <a href="https://www.jdsupra.com/legalnews/the-basics-of-autonomous-vehicles-part-35016/">this article</a> details many of the commonly used algorithms. </span>. In other words, it needs AI. And like a teenager with a learner’s permit, the system garners skill through experience. In doing so, the algorithm learns to discriminate between ambiguous objects like a plastic bag and a child, a shady patch and a pothole, or highway construction and a cyclist.</p>
+
+<p>For the most part, AVs use neural networks, a machine learning tool modeled off the human brain. The networks, once fed a sufficient amount of images, let’s say of a bicycle (think of the copious amount of images parlayed through the captcha assignments to prove humanity), will eventually ascertain for itself what a bicycle is without being told. The images prime the model in a training setting, so it understands what it is looking at in the ‘real’ world. Once it identifies a bicyclist as such, the model can then make a decision. Its next move may be to consciously give the bicyclist 3 feet of breathing room while passing. Among the 50+ companies involved with autonomous vehicles, there are dozens of models available. I’ll discuss one company’s model in more detail later.</p>
+
+<figure><img src="/assets/img/Bicycles_AVs/How AVs work.jpg" /><figcaption class="maincolumn-figure">This image from Nissan summarizes the algorithmic process succinctly.</figcaption></figure>
+
+<p>Not only do these models need to identify <em>what</em> they are looking at, they are also need to reconcile how fast and in what direction surrounding objects are moving. And in doing so, an algorithm should be able to predict the movements of these objects to inform its own navigational decisions. For instance, if the vehicle wants to switch lanes, it must determine if any entity is currently occupying the space it seeks to fill, or if there is an approaching vehicle about to pass. If so, it must calculate that vehicle’s speed and adjust accordingly. Alternatively, if a deer runs across the road, while perhaps unpredictable, it would be useful to know if that deer would already be out of the lane by the time the vehicle gets there. Thus, in calculating the deer’s speed and direction (or in other words, its velocity) the AI may determine if it only needs to slow down instead of stop, perhaps saving its passengers unnecessary stress.</p>
+
+<p><em>Connectivity</em></p>
+
+<p>Lastly, while the AVs are fully operational with just sensors and algorithms, they also need input from surrounding vehicles or wireless hubs (i.e. connectivity) if they are to be more efficient and operate in proximity. These connections could provide weather and traffic updates, road closure information, and input from surrounding AVs.</p>
+
+<p>The picture below summarizes the big 5 in AV wireless tech.</p>
+
+<p>The 5 Points of Connectivity:</p>
+
+<figure><img src="/assets/img/Bicycles_AVs/connectivity areas.png" /><figcaption class="maincolumn-figure"></figcaption></figure>
+
+<ul>
+  <li>V2P <em>(Vehicle to Pedestrian)</em> - this could refer either to linking with a pedestrian’s phone or a device worn by the pedestrian to locate them in relation to the vehicle</li>
+  <li>V2V <em>(Vehicle to Vehicle)</em> - this refers to the picture above, in which all AVs in proximity are connected and communicating to avoid dangerous situations, or else  make transportation more efficient</li>
+  <li>V2I <em>(Vehicle to Infrastructure)</em> - as this image notes, V2I allows the vehicles to connect with local stoplights, and the like, to inform them that the vehicle is approaching. While not a necessity in most situations, this would be useful if the AV were stopped at a stoplight, with no other vehicles around. The AV could, thus,communicate its position and turn the light green.</li>
+  <li>V2D <em>(Vehicle to Device)</em> - As the image says, this kind of connection would hook in with local devices to gather information, like images from a camera detailing a traffic accident, or sensors around intersections beeping for a pedestrian walking. This could include pedestrian smart phones as well.</li>
+  <li>V2X <em>(Vehicle to Everything)</em> -  This encompasses everything else that doesn’t fall under the other headers. This includes individual objects such as trees, buildings, rocks and the like, which may have sensors attached to them to inform AVs of their location. This could be helpful in circumnavigating unique roadway situations where a tree, for instance, is situated very closely to the road. The vehicle may mistake it for a pedestrian or cyclist, of which, it would need to provide extra space for.</li>
+</ul>
+
+<p>V2V communication is especially important in avoiding dangerous situations between AVs. If a vehicle decides to stop because it thinks the plastic bag is a child, it needs to provide a forewarning to the next vehicle that it’s stopping, so the next car may simultaneously and safely stop or else provide a wide berth. Additionally, fleets of AVs on the roadway, if not interconnected, may be dangerous, if not simply inefficient. Take for example two AVs arriving at an intersection at the exact same time. While AEBs may prevent them from running into each other, without the ability to communicate, the AVs may become locked in an interminable stalemate as they attempt to navigate past each other. That may only occur, however, if they aren’t able to communicate their intentions and synchronize their movements. Thus, AVs cannot operate safely on independent systems. Check out the image below for more examples where connected AVs can avoid tricky situations.</p>
+
+<figure><img src="/assets/img/Bicycles_AVs/V2V.png" /><figcaption class="maincolumn-figure"></figcaption></figure>
+
+<p>Beyond safety, connectivity could also boost efficiency overall. Traffic could synchronize  <label for="4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="4" class="margin-toggle" /><span class="sidenote">Check out <a href="https://www.youtube.com/watch?v=iHzzSao6ypE&amp;t=253s">this video</a> on how phantom traffic forms and <a href="https://www.youtube.com/watch?v=TNokBgtSUvQ&amp;t=255s">this video</a> for a more detailed look. While I prefer the first video because it provides more information in less time, the animation in the second video is hard to beat. </span>, eliminating the-mile-long start/stop jerking; stop lights could become non-existent, intersections in general would need little oversight. In a large intersection, vehicles would automatically make space for each other. And, an overarching algorithmic system, essentially acting as an air traffic controller, could calculate each vehicle’s route, determine where they will be at any given moment, and ultimately, minimize everyone’s time in traffic. Vehicles could also receive moment by moment reports from traffic and accident centers, like The Department of Transportation, local newscasters, or Google Maps. This could be a boon for a vehicle’s passengers; AVs could automatically switch routes due to road closures, traffic, or iciness, saving passengers time and reducing contact with safety hazards.</p>
+
+<p><em>Research and Regulation</em></p>
+
+<p>Collectively, these technologies form a functional efficient system that, with enough reliable sensors, combined with robust programming, and wireless information boosts could be more preferable, and especially safer, than conventional vehicles, driven by an imperfect, inconsistent human. According to the US Department of Transportation (USDOT), <a href="https://www.nhtsa.gov/press-releases/usdot-releases-2016-fatal-traffic-crash-data">94% of serious collisions</a> are linked to error in human decision making, a statistic thrown around by manufacturers and policy makers who hope to leverage AVs as the alternative transportation we need due to their progressive safety measures. I’ll dissect this statistic later on, as it is a little more nuanced than it seems, but, assuming humans to be at fault of all but a handful of incidents, it’s assumed that taking humans out of driving will make our roads a safer place. But are AVs actually better than the 94% error rate of humans?</p>
+
+<p><strong>Despite popular sensationalist belief, head on collisions are not representative of most of the kinds of accidents that self-driving vehicles engage in</strong></p>
+
+<p>In the US especially, we are prone to think that fatal high-speed collisions are the norm for AVs, given media coverage of such incidents as Elaine Herzberg’s, the first pedestrian-related fatality, (who I will discuss later) and also Tesla’s <a href="https://nypost.com/2021/03/19/feds-probing-nearly-two-dozen-crashes-involving-tesla-cars/">numerous highway crashes</a> <label for="" class="margin-toggle">⊕</label><input type="checkbox" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/img/Bicycles_AVs/Tesla_Semi_Truck_Crash.jpeg" /><br />This Tesla mistook the side of a semi-truck for a far-off billboard</span>(although, as stated in the last article, Tesla does not manufacture self-driving vehicles. They manufacture the idea of a self-driving vehicle with their mis-characterized ‘full self-driving’ vehicle package that does not exceed a level 3 on SAE’s AV characterization chart. This means they should never be driven unmonitored, even in autopilot mode. But an average driver wouldn’t know that given that they are buying a nominally recognized ‘full self-driving’ vehicle). Nonetheless, <a href="http://www.umich.edu/~umtriswt/PDF/UMTRI-2015-34_Abstract_English.pdf]">tentative research</a> from 2019 has shown that the opposite is actually true; rear-end collisions encompass the majority of AV accidents at 64.2%, a staggeringly high number considering that the next most frequent accident type for AVs are angle crashes (those that mostly occur at intersections with cars traveling perpendicularly or at an angle) at 31.4%. Even <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812981">conventional vehicles</a> (CVs)<label for="2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="2" class="margin-toggle" /><span class="sidenote">CV can also stand for connected vehicle, in reference to wireless connection, but in this case I refer to CVs exclusively as conventional vehicles </span> with a human driver don’t get close to that rear-ending stat; only 28.3% of motor vehicle accidents in the US are rear-ends - though rear-end and angle collisions are still the first and second most common crash type even for conventional vehicles.<label for="3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="3" class="margin-toggle" /><span class="sidenote">It is unclear if the research was controlling for where the vehicles were driven - if they are mostly driven on the highway, chances of crashing at an angle are low, which could explain the low angle crash figures </span></p>
+
+<figure><img src="/assets/img/Bicycles_AVs/Angle crash.jpeg" /><figcaption class="maincolumn-figure"></figcaption></figure>
+
+<p>On top of all that, AVs are far more likely to be rear-ended by other vehicles than to do the rear-ending themselves. It’s speculated that this is due to the unconventional way AVs drive. In sticking to the letter of the law as they are programmed to do, they tend to confuse human drivers who are more likely to speed, tailgate, hug the side line, shoot the gaps etc. And, as AVs are hyper aware of any pedestrians or vehicles in front of them, they are more likely to fully stop for a pedestrian’s protection, encountering situations where human drivers may instead slow down, make a wide berth, or, if what the AV was perceiving wasn’t actually another person at all, keep on at normal speed.</p>
+
+<p>Perhaps not surprisingly, because of this, AVs have a higher accident rate per miles traveled than conventional vehicles. A study from 2015 calculated that human drivers averaged anywhere from 1.9 – 4.1 crashes per million miles (cpmm) traveled.<label for="2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="2" class="margin-toggle" /><span class="sidenote">The variability is due to how many crashes tend not to be reported for insurance reasons, liability, and the like. Though 1.9 cpmm is a fixed number from the DMV, the researchers here estimated unreported crashes as well, and put the actual US crash rate at about 4.1cpmm. </span> AVs, on the other hand, average about 9.1cpmm. An alarming stat on the surface; however, as these accidents are largely in the form of rear-endings from other vehicles, they are not nearly as fatal or injurious as conventional vehicle crashes. On top of that, almost ¾ of the crashes occurred with the AV going at a speed of 5mph or lower. This again, is probably due to the excessively cautious driving style employed by AVs, however, it should also be noted that the report doesn’t detail how fast the other vehicles were going and, thus, how great of an impact the other drivers felt.</p>
+
+<p><em>Limitations</em></p>
+
+<p>While this study, <a href="https://www.sciencedirect.com/science/article/pii/S2352146520301654">and others like it</a>, provide confident results, three caveats need to be recognized.</p>
+
+<p>1.) Most importantly, AVs don’t exist in the quantities needed to make meaningful comparisons with conventional vehicles. The data acquired from the DMV <label for="3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="3" class="margin-toggle" /><span class="sidenote">AV manufacturers are required to report any crash or collision involving AVs within 10 days to the DMV. </span> of combined accident rates for conventional vehicles totals nearly 3 trillion miles as opposed to 1.2 million by AVs. Put another way, that’s 1 AV mile for every 2,500,000 CV mile. In fact, <a href="https://www.rand.org/content/dam/rand/pubs/research_reports/RR1400/RR1478/RAND_RR1478.pdf">a report</a> released by the RAND corporation (a nonprofit research institution) concludes that 100 AVs driving 24 hours a day, 365 days of the year, at an average speed of 25 mph, would need to drive for 12.5 years, or 275 million miles, to conclude with 95% confidence that their failure rate leads to at most 1.09 deaths per 100 million miles. That’s a lot of numbers to process, but in essence, the sample size of the previous study, and all others like it, will be too small to make any generalizable statements until AVs have driven long enough, which will take some time (about 12 years according to the study, however, the study doesn’t factor in how many more self-driving vehicles will have been manufactured since then, so the timing should be significantly less).</p>
+
+<p>2.) Another limitation the study notes is the context of the vehicle testing, or more specifically, where the vehicles were not tested – icy, stormy, or geographically unstable areas, or otherwise dangerous conditions. It’s unclear how many AVs are involved in accidents due to weather or roadway circumstances. Outside of untoward situations, location in general could affect AV crash rates. In figures from a report released by Waymo in 2021, Chandler, Arizona had nearly twice as many cross-traffic AV accidents than the Phoenix Metropolitan Area, and nearly 3x as many as the rest of the US testing grounds. This could be due to local driving customs or road attitudes, or physical conditions as noted above. However, these stats should be taken with a grain of salt as the report does not detail how many crashes total occurred in each area. But regardless, it should be noted that AV collision results could significantly differ depending on their location. <label for="" class="margin-toggle">⊕</label><input type="checkbox" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/img/Bicycles_AVs/Waymo in Arizona.gif" /><br />Waymos introduction to Phoenix</span></p>
+
+<p>3.) The report specifies that the AVs were not at fault for any accident they were involved in, however, it’s unclear what they mean by “fault”. It could mean that the AVs didn’t do the colliding, (they were in fact the collidees) and by that metric, it wasn’t the AV’s fault. In fact, the fault in this situation is implicitly placed on the CV driver. Or it could mean that the situations where the AVs were collided with were entirely justified (as in there may have been a pedestrian in the road) and, therefore, were not the AVs fault. And here, the fault is diffused to all parties, and therefore, no one is truly to blame. Either way, as it has been suggested that so many rear-end accidents with AVs occurred because human drivers were surprised by the AVs behavior, I believe there is room to allow for AV culpability. If AVs are not following the intuitive rules of the road that every other driver subscribes to, they may lead to accidents that may not have happened otherwise, regardless of speed or impact intensity. Thus, I believe it’s prudent to reserve judgment on the exact safety integrity of these stats until more information can be obtained.</p>
+
+<p>Despite these limitations, the results are tentatively exciting, but without enough data, we can’t say conclusively whether they are truly safer than human drivers, or else safe in general. More than that, it’s still unclear how they interact with cyclists - of which, I will tackle in the next article.</p>
+
+
+
+    </article>
+    <span class="print-footer">Part Two - Autonomous Vehicles and Bicycles - March 8, 2021 - Blaire Hobbs</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;BLAIRE HOBBS&nbsp;&nbsp; <a href="mailto:b.leo.hobbs@gmail.com"><span class="icon-mail3"></span></a></span></br> <br>
+<!-- <span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for blog about some things </a> in <a href="//jekyllrb.com">Jekyll</a>.</span>  -->
+</div>  
+</footer>
+  </body>
+</html>
